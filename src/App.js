@@ -1,8 +1,11 @@
+//import { TodoCounter } from './TodoCounter';
 import React from 'react';
-import { TodoCounter } from './TodoCounter';
+import {Date} from './Date'
 import { TodoSearch } from './TodoSearch';
+import { BackgroundFrame } from './BackgroundFrame';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
+import { TodoItemDetail } from './TodoItemDetail';
 import { TodoBtn } from './TodoBtn';
 
 let defaultTodos = [
@@ -15,12 +18,16 @@ let defaultTodos = [
 function App() {
   return (
     <>
-      <TodoCounter total={20} completed={15}/>
+      <Date/>
       <TodoSearch/>
+
+      <BackgroundFrame/>
 
       <TodoList>
         {defaultTodos.map(todo=> (
-          <TodoItem key={todo.text} text={todo.text} completed={todo.completed}/>
+          <TodoItem key={todo.text} text={todo.text} completed={todo.completed}>
+            <TodoItemDetail/>
+          </TodoItem>
         ))}
       </TodoList>
 

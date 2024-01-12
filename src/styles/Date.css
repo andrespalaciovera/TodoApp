@@ -1,0 +1,19 @@
+.date-month{
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    font-size: 50vw;
+    padding: 0;
+    margin: 0;
+}
+
+.month{
+    font-size: 10vw;
+    transform: rotate(-90deg);
+    padding: 0;
+    margin: 0;
+    transform-origin: top left;
+    align-self: self-end;
+}

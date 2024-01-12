@@ -1,6 +1,10 @@
+import "./styles/TodoSearch.css"
+
 function TodoSearch() {
     return(
-        <input placeholder="cut the onions without crying"/>
+        <div className="wrapper">
+            <input className="search-bar" placeholder="cut the onions without crying"/>
+        </div>
     );
 }
 

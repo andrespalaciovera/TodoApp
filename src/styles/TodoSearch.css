@@ -1,0 +1,18 @@
+@import './variables.css';
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    border-radius: 20px;
+    padding: 4px 12px;
+    width: 70%;
+    height: 1.25rem;
+    border: none;
+}
