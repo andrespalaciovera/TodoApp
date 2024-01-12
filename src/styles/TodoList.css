@@ -1,0 +1,7 @@
+@import './variables.css';
+
+.todo-list-container{
+    height: 50%;
+    overflow-x: scroll;
+    display: flex;
+}

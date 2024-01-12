@@ -1,0 +1,16 @@
+@import './variables.css';
+
+.add{
+    position: fixed;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    border-radius: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    width: 80px;
+    height: 1.5rem;
+    cursor: pointer;
+    font-size: large;
+}

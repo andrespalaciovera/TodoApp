@@ -1,0 +1,104 @@
+@import './variables.css';
+
+ul{
+    min-height: 400px;
+    width: 80%;
+    margin-bottom: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-items: center;
+    position: relative;
+    max-width: 44px;
+    margin: 0rem 1rem;
+}
+
+.item-list{
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 190px;
+    overflow-y: hidden;
+    border-radius: 12px;
+    height: 40px;
+    overflow-y: hidden;
+}
+
+.important-urgent{
+    min-width: 302px !important;
+    background: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.important-urgent>p{
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.important{
+    min-width: 231px !important;
+    background: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.important>p{
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+}
+
+.urgent{
+    min-width: 161px !important;
+    background: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.urgent>p{
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+}
+
+.entertaining{
+    min-width: 91px !important;
+    background: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.entertaining>p{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+}
+
+.li-selected{
+    margin-right: 10rem;
+}
+
+.selected{
+    min-width: 338px;
+    min-height: 200px;
+    background: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    position: relative;
+    bottom: -10rem;
+}

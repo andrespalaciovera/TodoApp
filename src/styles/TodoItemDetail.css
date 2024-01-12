@@ -1,0 +1,6 @@
+@import './variables.css';
+
+.detail-task{
+    flex: 0 0 100%;
+    transform: rotate(90deg);
+}

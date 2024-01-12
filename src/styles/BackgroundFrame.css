@@ -1,0 +1,17 @@
+@import './variables.css';
+
+.background-frame{
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 136px;
+
+}
+
+.background-frame>p{
+    text-align: end;
+    border-bottom: 1px solid var(--primary-color);
+    margin-top: 3rem;
+}
