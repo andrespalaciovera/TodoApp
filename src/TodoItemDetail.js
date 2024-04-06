@@ -3,12 +3,15 @@ import "./styles/TodoItemDetail.css";
 function TodoItemDetail({className, completed}) {
     return(
         <div className="detail-task">
-            <input type="checkbox" name="item" value="Done"></input>
+            <span className="close">X</span>
+            <span>
+                <input type="checkbox" name="item" value="Done"></input>
+                <h4>Done</h4>
+            </span>
             <div>
-                <p className = {className}>Urgent</p>
-                <p className = {className}>Important</p>
+                <h4 className = {className}>Urgent</h4>
+                <h4 className = {className}>Important</h4>
             </div>
-            <span>X</span>
         </div>
     );
 }
