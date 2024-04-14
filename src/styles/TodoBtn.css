@@ -14,3 +14,21 @@
     cursor: pointer;
     font-size: large;
 }
+
+.add::before{
+    content: "+";
+}
+
+.add.selected{
+    bottom: 15.25rem;
+    width: 200px;
+
+}
+
+.add.selected::before{
+    content: "";
+}
+
+.add.selected::after{
+    content: "-";
+}

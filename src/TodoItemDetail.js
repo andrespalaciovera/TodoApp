@@ -2,7 +2,7 @@ import "./styles/TodoItemDetail.css";
 
 function TodoItemDetail({className, completed}) {
     return(
-        <div className="detail-task">
+        <div className={`detail-task display-none ${className}`}>
             <span className="close">X</span>
             <span>
                 <input type="checkbox" name="item" value="Done"></input>

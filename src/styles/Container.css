@@ -1,0 +1,9 @@
+.position-absolute{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+}
+
+.position-absolute.new-task{
+    top: -280px;
+}

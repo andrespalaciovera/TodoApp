@@ -26,7 +26,7 @@ li{
     transform-origin: top left;
     transform: rotate(-90deg);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     min-width: 190px;
     overflow-y: hidden;
     border-radius: 12px;
@@ -37,7 +37,7 @@ li{
 .important-urgent{
     min-width: 302px !important;
     background: var(--secondary-color);
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);    
 }
 
 .important-urgent>p{
@@ -90,11 +90,13 @@ li{
     align-self: center;
 }
 
+/* this class appears on li tag */
 .li-selected{
     margin-right: 10rem;
 }
 
-.selected{
+/* this class appears on div tag */
+.div-selected{
     min-width: 338px;
     min-height: 200px;
     background: var(--secondary-color);

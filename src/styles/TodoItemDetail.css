@@ -1,5 +1,9 @@
 @import './variables.css';
 
+.display-none{
+    display: none;
+}
+
 .close{
     position: relative;
     left: 108px;

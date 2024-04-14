@@ -1,8 +1,8 @@
 import "./styles/TodoBtn.css";
 
-function TodoBtn(props) {
+function TodoBtn({className}) {
     return(
-        <button className="add">+</button>
+        <button className={`add  ${className}`}></button>
     );
 }
 
